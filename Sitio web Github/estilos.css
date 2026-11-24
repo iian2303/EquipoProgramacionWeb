@@ -1,0 +1,228 @@
+
+/* PAGINA PRINCIPAL */
+
+.pagina-indice {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #171923, #30394a);
+}
+
+.pagina-indice header {
+    background-color: #00C3D0;
+    color: white;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    box-shadow: 0 8px 25px rgba(0, 195, 208, 0.2);
+}
+
+.pagina-indice header h1 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.indice {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.enlace-jugador {
+    display: block;
+    text-decoration: none;
+    color: white;
+    flex: 1 1 250px;
+    max-width: 310px;
+}
+
+.jugador {
+    min-height: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.jugador:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 195, 208, 0.25);
+}
+
+.jugador img {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid white;
+}
+
+.jugador h2 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin: 0;
+}
+
+.jugador1 {
+    background-color: #757575;
+}
+
+.jugador2 {
+    background-color: #444444;
+}
+
+.jugador3 {
+    background-color: #1E1E1E;
+}
+
+/* ADAPTACION PARA CELULAR */
+
+@media (max-width: 650px) {
+    .pagina-indice header h1 {
+        font-size: 32px;
+    }
+
+    .enlace-jugador {
+        max-width: 400px;
+        flex-basis: 100%;
+    }
+
+    .jugador {
+        min-height: 230px;
+    }
+}
+
+/* PAGINAS INDIVIDUALES */
+
+.pagina-perfil {
+    min-height: 100vh;
+    padding: 35px;
+}
+
+.perfil {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 850px;
+    margin: auto;
+}
+
+/* NOMBRE, FOTO Y HABILIDADES */
+
+.informacion {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.foto {
+    width: 55%;
+    text-align: center;
+}
+
+.foto h1 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.habilidades {
+    width: 35%;
+    align-self: center;
+}
+
+.habilidades h2 {
+    font-family: 'Jaro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.habilidades p {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+/* VIDEO */
+
+.video {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background-color: black;
+}
+
+
+
+/* NAVEGACION */
+
+.navegacion {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navegacion a {
+    background-color: #00C3D0;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-family: 'Jaro', sans-serif;
+    border-radius: 5px;
+}
+
+.navegacion a:hover {
+    background-color: #009BA5;
+    color: white;
+}
+
+
+
+
+        
+   
+
+
+
